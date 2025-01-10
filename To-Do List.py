@@ -11,6 +11,7 @@ def main():
         choice()
         task_action = input("Enter the action to perform: ")
 
+
         if task_action == "1":
             task = input("Enter the task: ")
             to_do_list.append(task)

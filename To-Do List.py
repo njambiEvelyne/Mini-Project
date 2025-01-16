@@ -15,7 +15,7 @@ def main():
         if task_action == "1":
             task = input("Enter the task: ")
             to_do_list.append(task)
-            print(f"{task} has been added to the list.")
+            print(f"{task} has been added to the list successfully.")
 
         elif task_action == "2":
             task = input("Enter the task to be removed: ")
